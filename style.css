@@ -1,0 +1,16 @@
+.music-box{
+    display: flex;
+    border: 1px solid;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+    gap: 20px;
+    padding: 30px;
+    margin: auto;
+}
+
+.icons{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
