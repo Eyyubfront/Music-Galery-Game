@@ -1,3 +1,6 @@
+body{
+    background-color: #0f1722;
+}
 .music-box{
     display: flex;
     border: 1px solid;
@@ -8,7 +11,18 @@
     padding: 30px;
     margin: auto;
 }
-
+#songername{
+    color: grey;
+    font-size: 30px;
+}
+#songbox{
+    background-color: rgba(17, 25, 40, 0.83);
+    border: 1px solid rgba(255, 255, 255, 0.125);
+    box-shadow: rgb(23 92 230 / 15%) 0px 4px 24px;
+    border-radius: 16px;
+    padding: 18px 36px;
+    margin-top: 30px;
+}
 .icons{
     display: flex;
     flex-direction: row;
