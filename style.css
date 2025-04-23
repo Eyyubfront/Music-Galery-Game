@@ -1,19 +1,45 @@
 body{
     background-color: #0f1722;
 }
+.top_name{
+    text-align: center;
+    font-family: Inter,sans-serif;
+    text-align: center;
+    color: aliceblue;
+    font-size: 30px;
+}
+#iconsbacw{
+    cursor: pointer;
+}
+#songprevs{
+    cursor: pointer;
+}
+#iconplay{
+    cursor: pointer;
+}
+#iconforward{
+    cursor: pointer;
+}
+#songsnext{
+    cursor: pointer;
+}
 .music-box{
     display: flex;
     border: 1px solid;
     flex-direction: column;
     align-items: center;
     width: 300px;
-    gap: 20px;
-    padding: 30px;
+    gap: 11px;
+    padding: 25px;
     margin: auto;
 }
 #songername{
-    color: grey;
+    color: antiquewhite;
     font-size: 30px;
+}
+#songphot{
+    width: 250px;
+    height: 250px;
 }
 #songbox{
     background-color: rgba(17, 25, 40, 0.83);
